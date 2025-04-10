@@ -17,4 +17,4 @@ if [ $timeout -eq 0 ]; then
 fi
 
 # Run veth setup
-bash /opt/srsRAN_Project/scripts/setup_veth.sh
+bash $(pwd)/scripts/setup_veth.sh
